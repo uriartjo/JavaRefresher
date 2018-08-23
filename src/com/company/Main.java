@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         // Make two students
         Student a = new Student(12); // new 12 unit student
-        Student b = new Student(); // new 15 unit student (default constructor)
+        Student b = new Student(); // New 15 unit student (default constructor)
 
         // They respond to getUnits() and getStress()
         System.out.println("Student A units:" + a.getUnits() + " stress:" + a.getStress());
